@@ -1,0 +1,49 @@
+body
+{
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 100%);
+}
+*
+{
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.col-md-7
+{
+    background-image: linear-gradient(to bottom, #b8bfc1 0%, #7d899d 100%);
+    /* border: 3px solid black; */
+    border-radius:5px;
+    margin-top: 170px !important;
+
+}
+h1{
+    background-color: blue;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    color: white;
+}
+
+input[type=radio]
+{
+        padding: 10px;
+        margin: 5px;
+}
+
+
+button{
+    margin-top: 10px !important;
+    font-weight: bold !important;
+    
+}
+button:hover{
+    background-color: rgb(162, 96, 224);
+    /* padding: 2px; */
+    color: black !important;
+}
+
+input ,label{
+    margin: 8px;
+    font-size: 18px;
+    /* font-weight: bold; */
+}
